@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.card-container {
+/* border: 1px solid red;
+width: 500px;
+height: 500px; */
+display: flex;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    padding: 40px;
+    width: 300px;
+}
+.box-a {
+    background-color:  hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box-b {
+ background-color:  hsl(184, 100%, 22%);
+}
+.box-c {
+    background-color:  hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:  hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 30px;
+}
+p {
+    margin-bottom: 80px;
+    color: hsla(0, 0%, 100%, 0.75);
+     font-family: "Lexend Deca", sans-serif;
+     line-height: 1.6;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+}
+.box-a button {
+    color:  hsl(31, 77%, 52%);
+}
+.box-b button {
+    color:  hsl(184, 100%, 22%);
+}
+.box-c button {
+    color: hsl(179, 100%, 13%);
+}
