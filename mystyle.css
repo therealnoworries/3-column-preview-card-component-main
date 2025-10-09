@@ -57,9 +57,19 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 978px) {
     .card-container {
+        /* max-width: 375px; */
  flex-direction: column;
+    }
+    body {
+        height: auto; 
+        overflow-y: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .box {
+        min-width: 300px;
     }
     .box-a {
         border-bottom-left-radius: 0;
@@ -75,8 +85,8 @@ button {
         margin-bottom: 25px;
     }
     h2 {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     button {
         margin-bottom: 10px;
